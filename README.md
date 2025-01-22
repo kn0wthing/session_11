@@ -1,4 +1,4 @@
- # Hindi BPE Tokenizer
+# Hindi BPE Tokenizer
 
 A Python script for preprocessing Hindi text and training a Byte Pair Encoding (BPE) tokenizer optimized for the Hindi language. The script automatically downloads and processes a portion of the IndicCorp Hindi dataset.
 
@@ -254,4 +254,14 @@ Feel free to open issues or submit pull requests for improvements.
 
 ## License
 MIT License
+
+## Interface Preview
+
+### Encoding
+![Encoding Interface](encoding.png)
+*The encoding interface shows how Hindi text is broken down into tokens. In this example, a Hindi sentence with 222 characters is tokenized into 68 tokens, each highlighted with a different color for better visualization.*
+
+### Decoding 
+![Decoding Interface](decoding.png)
+*The decoding interface allows entering token IDs and shows the reconstructed Hindi text. The token mapping shows how each ID corresponds to its Hindi subword token.*
 
